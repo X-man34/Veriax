@@ -158,11 +158,11 @@ if game.PlaceId == 606849621 then
 			if sure == false then
 				sure = true
 				script.Parent.Parent.Visible = false
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/Veriax/main/Verisions/" .. currentVersion .. "/Scripts/Jailbreak.lua"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/X-man34/Veriax/main/Verisions/" .. currentVersion .. "/Scripts/Jailbreak.lua"))()
 			end
-			if string.find(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/Veriax/main/Verisions/CurrentVersion"), currentVersion) then
+			if string.find(game:HttpGet("https://raw.githubusercontent.com/X-man34/Veriax/main/Verisions/CurrentVersion"), currentVersion) then
 				script.Parent.Parent.Visible = false
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/Veriax/main/Verisions/" .. currentVersion .. "/Scripts/Jailbreak.lua"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/X-man34/Veriax/main/Verisions/" .. currentVersion .. "/Scripts/Jailbreak.lua"))()
 				
 			else
 				script.Parent.Parent.Notification.Visible = true
@@ -180,7 +180,7 @@ if game.PlaceId == 606849621 then
 		script.Parent.MouseButton1Click:Connect(function()
 			script.Parent.Parent.Notification.Visible = true
 			script.Parent.Parent.Notification.Text = "Copied link to clipboard!"
-			setclipboard("https://github.com/KuriWasTaken/Veriax")
+			setclipboard("https://github.com/X-man34/Veriax")
 			wait(2)
 			script.Parent.Parent.Notification.Visible = false
 		end)
