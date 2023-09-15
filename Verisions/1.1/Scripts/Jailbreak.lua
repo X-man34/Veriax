@@ -17,9 +17,9 @@ local windows = {
 }
 
 local Local = {
-    walkSpeed = 16,
-    jumpPower = 50,
-    NoRagdoll = false,
+    walkSpeed = 25,
+    jumpPower = 75,
+    NoRagdoll = true,
     Gravity = 180,
     Fly = false,
     flightSpeed = 16;
@@ -200,9 +200,9 @@ end)
 
 local Vehicles = {
     CarHeight = 2,
-    CarSpeed = 20,
-    TurnSpeed = 1,
-    InfNitro = false,
+    CarSpeed = 30,
+    TurnSpeed = 2,
+    InfNitro = true,
     AntiTirePop = false;
 }
 
@@ -243,7 +243,7 @@ end)
 
 --MISC
 
-local OpenDoors = false
+local OpenDoors = true
 
 windows.MISC:createToggle("No cell time", function(a)
     if a then
