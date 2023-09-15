@@ -6,8 +6,8 @@ require(game:GetService("ReplicatedStorage").Game.Notification).new({
             Duration = 2
 })
 
-local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/Veriax/main/Verisions/1.1/Scripts/Engine.lua"))()
-local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/Veriax/main/Verisions/1.1/UILibrary.lua"))()
+local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/X-man34/Veriax/main/Verisions/1.1/Scripts/Engine.lua"))()
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/X-man34/Veriax/main/Verisions/1.1/UILibrary.lua"))()
 
 local windows = {
     Local = UI:createTab("Local"),
