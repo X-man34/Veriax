@@ -46,7 +46,7 @@ end)
 
 game:GetService('UserInputService').InputBegan:connect(function(key, gpe)
     if key.KeyCode == Enum.KeyCode.q then
-        Fly = not Fly
+        Local.Fly = not Local.Fly
     end
 end)
 
