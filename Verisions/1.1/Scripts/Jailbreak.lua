@@ -44,6 +44,12 @@ game:GetService('UserInputService').InputEnded:connect(function(key, gpe)
     end
 end)
 
+game:GetService('UserInputService').InputBegan:connect(function(key, gpe)
+    if key.KeyCode == 81 then
+        Fly = !Fly
+    end
+end)
+
 spawn(function()
     while true do
         wait()
@@ -112,7 +118,7 @@ windows.Local:createToggle("Fly", function(a)
     Local.Fly = a
 end)
 
-windows.Local:createSlider("FlightSpeed", 100, function(a)
+windows.Local:createSlider("FlightSpeed", 200, function(a)
     Local.flightSpeed = a
 end)
 
