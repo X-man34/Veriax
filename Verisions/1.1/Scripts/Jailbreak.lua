@@ -46,7 +46,7 @@ end)
 
 game:GetService('UserInputService').InputBegan:connect(function(key, gpe)
     if key.KeyCode == 81 then
-        Local.Fly = not Local.Fly
+    print("q pressed")
     end
 end)
 

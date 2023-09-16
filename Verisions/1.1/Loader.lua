@@ -127,7 +127,7 @@ if game.PlaceId == 606849621 then
 	TextLabel_3.Position = UDim2.new(0.128006101, 0, 0.195822448, 0)
 	TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
 	TextLabel_3.Font = Enum.Font.SourceSans
-	TextLabel_3.Text = "Made by Kuri#1686"
+	TextLabel_3.Text = "Made by Kuri#1686, Modded by X-man34"
 	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel_3.TextScaled = true
 	TextLabel_3.TextSize = 14.000
